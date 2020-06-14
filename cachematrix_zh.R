@@ -1,10 +1,5 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
-
 ### This function creates a special "matrix" object that can cache its inverse.
-### Modify makevector code example for assignment
+### I have modified the makevector and cachemean functions for this assignment
 
 makeCacheMatrix <- function(x = matrix()) {   # Note: argument default mode is changed to "matrix"
     inv <- NULL                               # initialise inv as null to hold value of matrix inverse
@@ -41,8 +36,8 @@ cacheSolve <- function(x, ...) {
     inv                                             # and returns and prints the value of the inverse matrix
   }
 
-
-#test example (extra for testing if functions above work)
+# extra
+# test example (extra for testing if functions above work)
 test <- matrix(c(1.24,1.45,6.5,2.4,5.5,7.5,8.1,2.3,4.8),3,3)
 solve(test)
 
